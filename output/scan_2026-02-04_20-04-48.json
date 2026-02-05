@@ -1,0 +1,20 @@
+{
+    "host": "76.223.54.146",
+    "state": "up",
+    "protocols": {
+        "tcp": {
+            "80": {
+                "state": "open",
+                "service": "tcpwrapped",
+                "product": "",
+                "version": ""
+            },
+            "443": {
+                "state": "open",
+                "service": "tcpwrapped",
+                "product": "",
+                "version": ""
+            }
+        }
+    }
+}
