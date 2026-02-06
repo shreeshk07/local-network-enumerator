@@ -1,0 +1,119 @@
+{
+    "nmap": {
+        "command_line": "/usr/lib/nmap/nmap --privileged -oX - -T3 -p 80 -A 35.244.214.117",
+        "scaninfo": {
+            "tcp": {
+                "method": "syn",
+                "services": "80"
+            }
+        },
+        "scanstats": {
+            "timestr": "Thu Feb  5 21:35:37 2026",
+            "elapsed": "15.58",
+            "uphosts": "1",
+            "downhosts": "0",
+            "totalhosts": "1"
+        }
+    },
+    "scan": {
+        "35.244.214.117": {
+            "hostnames": [
+                {
+                    "name": "117.214.244.35.bc.googleusercontent.com",
+                    "type": "PTR"
+                }
+            ],
+            "addresses": {
+                "ipv4": "35.244.214.117"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "reset"
+            },
+            "tcp": {
+                "80": {
+                    "state": "open",
+                    "reason": "syn-ack",
+                    "name": "http",
+                    "product": "nginx",
+                    "version": "",
+                    "extrainfo": "",
+                    "conf": "10",
+                    "cpe": "cpe:/a:igor_sysoev:nginx",
+                    "script": {
+                        "http-title": "HTTP Status 404 \\xE2\\x80\\x93 Not Found"
+                    }
+                }
+            },
+            "portused": [
+                {
+                    "state": "open",
+                    "proto": "tcp",
+                    "portid": "80"
+                }
+            ],
+            "osmatch": [
+                {
+                    "name": "Oracle Virtualbox Slirp NAT bridge",
+                    "accuracy": "98",
+                    "line": "98665",
+                    "osclass": [
+                        {
+                            "type": "bridge",
+                            "vendor": "Oracle",
+                            "osfamily": "Virtualbox",
+                            "osgen": null,
+                            "accuracy": "98",
+                            "cpe": [
+                                "cpe:/o:oracle:virtualbox"
+                            ]
+                        },
+                        {
+                            "type": "bridge",
+                            "vendor": "Slirp",
+                            "osfamily": "Slirp",
+                            "osgen": null,
+                            "accuracy": "98",
+                            "cpe": [
+                                "cpe:/a:danny_gasparovski:slirp"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "AT&T BGW210 voice gateway",
+                    "accuracy": "95",
+                    "line": "9785",
+                    "osclass": [
+                        {
+                            "type": "VoIP adapter",
+                            "vendor": "AT&T",
+                            "osfamily": "embedded",
+                            "osgen": null,
+                            "accuracy": "95",
+                            "cpe": []
+                        }
+                    ]
+                },
+                {
+                    "name": "QEMU user mode network gateway",
+                    "accuracy": "94",
+                    "line": "100506",
+                    "osclass": [
+                        {
+                            "type": "general purpose",
+                            "vendor": "QEMU",
+                            "osfamily": "QEMU",
+                            "osgen": null,
+                            "accuracy": "94",
+                            "cpe": [
+                                "cpe:/a:qemu:qemu"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

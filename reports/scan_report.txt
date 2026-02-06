@@ -1,0 +1,10 @@
+Local Network Enumeration Report
+=============================================
+Target      : 35.244.214.117
+Arguments   : -T3 -p 80 -A
+Scan Time   : 2026-02-05 21:35:37.073074
+
+Host: 35.244.214.117
+State: up
+  Port 80 | open | http | 
+

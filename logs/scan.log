@@ -1,0 +1,4 @@
+2026-02-05 21:34:46,080 - INFO - Scan started on 127.0.0.1 with arguments: -T3 -p 80 -A
+2026-02-05 21:34:48,195 - INFO - Scan completed successfully
+2026-02-05 21:35:21,438 - INFO - Scan started on 35.244.214.117 with arguments: -T3 -p 80 -A
+2026-02-05 21:35:37,074 - INFO - Scan completed successfully
