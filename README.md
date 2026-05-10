@@ -1,5 +1,7 @@
 # Local Network Enumerator
 
+https://medium.com/@shreeshk08/building-a-local-network-enumerator-with-python-and-nmap-a3ca53708059
+
 A Python-based tool that performs local network enumeration using Nmap.  
 The project discovers reachable hosts, scans for open TCP ports, identifies running services, detects operating systems, and generates structured scan reports.
 
